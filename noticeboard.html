@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover New York City | Noticeboard</title>
+    <link rel="stylesheet" href="./css/noticeboard.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+   <header>
+       <h1>NYC Public Noticeboard</h1>
+    <p>See News, articles, Notices and major events</p>
+   </header>
+    <div class="container">
+        
+        
+        <div id="categories">
+            <button class="category-button" data-feed="events" onclick="loadFeeds('events')">Events</button>
+            <button class="category-button" data-feed="meeting-notices" onclick="loadFeeds('meeting-notices')">Public Meeting Notices</button>
+            <button class="category-button" data-feed="press-releases" onclick="loadFeeds('press-releases')">Press Releases</button>
+            <button class="category-button" data-feed="lifestyle" onclick="loadFeeds('lifestyle')">Lifestyle</button>
+            <button class="category-button" data-feed="news" onclick="loadFeeds('news')">News</button>
+        </div>
+
+        
+        <div id="rss-feed">
+            <h3 style="text-align: center;">Fetching info . Please wait .....</h3>
+        </div>
+    </div>
+
+    <script src="./js/noticeboard.js"></script>
+    <script src="./js/navbar.js"></script>
+
+</body>
+</html>

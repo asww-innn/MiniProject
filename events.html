@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover New York City | Events</title>
+    <link rel="stylesheet" href="./css/noticeboard.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+    <header>
+        <h1>NYC Public Events and Shows Across The City</h1>
+        <p>Get info and links to all events happening across the city</p>
+    </header>
+
+    <div class="container">
+        
+        
+        <div id="categories">
+            <button class="category-button" data-feed="events" onclick="loadFeeds('events')">Events</button>
+            <button class="category-button" data-feed="art" onclick="loadFeeds('art')">Art</button>
+        </div>
+
+        
+        <div id="rss-feed">
+            <h3 style="text-align: center;">Fetching Events. Please Wait ...</h3>
+        </div>
+    </div>
+    <script src="./js/events.js"></script>
+    <script src="./js/navbar.js"></script>
+
+</body>
+</html>

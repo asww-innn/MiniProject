@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover New York City | Maps</title>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="./css/map.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+
+</head>
+
+<body>
+<header>
+  <h1>International and State maps of New York City</h1>
+  <p>These are some maps indicating the geographical significance of NYC</p>
+</header>
+
+
+  <div class="container">
+    <div class="static">
+      <div id="map2"><div id=imgName>New York in North America</div><img src="./assets/images/maps/newyork in northamerica.png"></div>
+      <div id="map3"><div id=imgName>New York State map</div><img src="./assets/images/maps/newyork general map.jpg"></div>
+    </div>
+    
+    <div class="static">
+      <div id="map4"><div id=imgName>New York in US</div><img src="./assets/images/maps/newyork in us.png"></div>
+      <div id="map5"><div id=imgName>New York City Map</div><img src="./assets/images/maps/newyorkcity map.svg"></div>
+    </div>
+ 
+    <div class="dynamic">
+      <div id=imgName>GPS Route map</div>
+      <div id="routemap">
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="./js/map.js"></script>
+  <script src="./js/navbar.js"></script>
+
+</body>
+
+</html>

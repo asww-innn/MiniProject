@@ -1,0 +1,24 @@
+{
+    "images": [
+      "./assets/images/gallery/Empire state building.png",
+      "./assets/images/gallery/brooklyn bridge.png",
+      "./assets/images/gallery/metropolitan museum of art.png",
+      "./assets/images/gallery/statue of liberty.png",
+      "./assets/images/gallery/times square.png",
+      "./assets/images/gallery/top of the rock.png",
+      "./assets/images/maps/landmark map.png",
+      "./assets/images/maps/newyorkcity map.svg",
+      "./assets/images/maps/newyork countries map.png",
+      "./assets/images/tourism/neighbourhood.png",
+      "./assets/images/gallery/highline.png",
+      "./assets/images/gallery/911mem.png",
+      "./assets/images/gallery/centralpark.png"
+    ],
+    "videos": [
+    ],
+    "youtube": [
+      "https://www.youtube.com/embed/MtCMtC50gwY",
+      "https://www.youtube.com/embed/dxsawQOQ9lU"
+    ]
+  }
+  

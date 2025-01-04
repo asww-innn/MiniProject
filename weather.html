@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover New York City | Weather</title>
+
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="./css/weather.css"/>
+  <link rel="stylesheet" href="./css/navbar.css"/>
+  <link rel="stylesheet" href="./css/common.css" />
+
+</head>
+
+<body>
+  <header>
+    <h1>Weather in the New York City</h1>
+    <p>Interactive weather maps and realtime weather of NYC</p>
+  </header>
+  <div class="intro">
+    <p>New York City experiences a diverse climate with all four distinct seasons, making it a unique destination for visitors year-round. Winters (December to February) can be cold, with temperatures often dropping below freezing and occasional snowfall. Spring (March to May) brings mild temperatures and blooming flowers, while summers (June to August) are warm and humid, with average highs around 80°F (27°C). Fall (September to November) is characterized by cool temperatures and vibrant autumn colors.
+      The city's weather can be unpredictable, so it's always a good idea to check the forecast before your visit. Whether you're exploring Central Park in the summer or attending a Broadway show in the winter, New York's ever-changing climate adds a distinct charm to the city's atmosphere.
+    </p>
+
+  </div>
+
+    
+  <div class="widget-container">
+    <div id="openweathermap-widget-11"></div>
+    <div id="weatherInfo"></div>
+  </div>
+  
+
+  <div class="map-container">
+    <div id="weathermap"></div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+  <script src="./js/weather.js"></script>
+  <script src="./js/navbar.js"></script>
+
+</body>
+
+</html>

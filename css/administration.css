@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Delius';
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.listing ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listing li {
+    background-color: aliceblue;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid balck;
+}
+
+.listing a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+
+li a:hover {
+    text-decoration: underline;
+}

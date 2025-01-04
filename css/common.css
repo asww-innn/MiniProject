@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'starrynight';
+    src: url('../assets/fonts/StarryNight-aYVaa.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'sparkystones';
+    src: url('../assets/fonts/SparkyStonesRegular-BW6ld.ttf') format('truetype'),
+
+}
+@font-face {
+    font-family: 'sabindo';
+    src: url('../assets/fonts/Sabindo-LVy2W.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Delius';
+    src: url('../assets/fonts/Delius-Regular.ttf') format('truetype'),
+}
+
+
+header ul{
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+header{
+    background-color:#e1d9f199;
+}
+header h1{
+    font-family: 'sabindo';
+    text-align: center;
+}
+header p{
+    text-align: center;
+    font-family: 'sparkystones';
+}
+
+
+html, body {margin: 0; height: 100%;}

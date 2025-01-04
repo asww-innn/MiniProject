@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: 'Delius';
+
+}
+.container{
+    margin: 1vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.static {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+
+}
+
+.static img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+
+}
+
+p {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.history {
+    line-height: 3vh;
+    
+}
+
+.population {
+    line-height: 4vh;
+}
+
+#culture{
+    line-height: 4vh;
+    background-color: aliceblue;
+}
+h2 {
+    margin-top: 3vw;
+    font-family: monospace;
+}
