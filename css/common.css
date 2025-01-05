@@ -64,4 +64,4 @@ footer {
     background: #000000df;
     margin-top: 2vh;
 }
-html, body {margin: 0; height: 100%;}
+html, body {margin: 0; height: 100%; overflow-x: hidden;}
