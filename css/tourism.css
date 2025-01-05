@@ -1,8 +1,9 @@
-ul{
+.horizontalContainer ul{
     text-align: center;
-    /* padding-left: 30vw; */
     margin: 3vw;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.102);
+    border-radius: 1vw;
+    box-shadow: 1px 1px 10px;
     line-height: 1.4vw;
     margin-top: 0px;
 }
@@ -46,7 +47,6 @@ img{
     height: 15vw;
     width: 15vw;
     object-fit: cover;
-    border: 1px solid black;
 }
 
 #map{
@@ -59,33 +59,40 @@ img{
     opacity: 0.7;
     top:0px;
     margin: 0;
-    height: 30px;
-    width: 30px;
+    height: 2.5vh;
+    width: 2.5vh;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 2vh;
     font-weight: bold;
     text-align: center;
 }
 
 
 
-.list{
-    background-color: aliceblue;
-}
 .list ul li{
-    font-size: 1.4vw;
+    font-size: 2vh;
+    font-family: 'Delius';
 }
 
 .list h3{
-    font-family: 'sparkystones';
+    font-family: 'starrynight';
     font-weight: normal;
-    margin-bottom: 1vh;
-
+    margin-bottom: 0.5vh;
+    
 }
 .list ul{
     text-align: center;
+    padding: 1vw;
+    background-color: aliceblue;
 }
 h2{
-    font-family: 'starrynight';
+    font-family: 'sparkystones';
+    font-size: 2.5vh;
     font-weight: 100;
+}
+
+.horizontalContainer{
+    display: grid;
+    margin: 3vw;
+    grid-template-columns: 1fr 1fr;
 }

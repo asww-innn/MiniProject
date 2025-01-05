@@ -48,14 +48,16 @@ h1 {
 
 #rss-feed {
     margin-top: 20px;
+    min-height: 60vh;
 }
 
 .item {
     padding: 15px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #00000047;
+    box-shadow: 1px 1px 2px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: aliceblue;
 }
 
 .item h2 {
@@ -76,3 +78,5 @@ h1 {
 .item a:hover {
     text-decoration: underline;
 }
+
+

@@ -1,6 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Delius';
 }
 
 
@@ -10,17 +9,21 @@ main {
 }
 
 section {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: aliceblue;
 }
-
-ul {
-    padding-left: 20px;
-}
-
 
 .container{
     display: flex;
     flex-direction: row;
+}
+
+section{
+    border-radius: 1vw;
+    box-shadow: 1px 1px 5px;
+    padding: 1vh;
+    margin: 2vh;
+}
+
+section h2{
+    margin: 0.5vh;
 }

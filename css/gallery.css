@@ -1,11 +1,11 @@
-html, body {margin: 0; height: 100%;}
-
+body{
+    overflow: hidden;
+}
 
 .left-pane {
     width: 25%;
     color: white;
     overflow-y: scroll;
-    height: 100%;
 }
 
 .left-pane .card iframe {
@@ -38,7 +38,9 @@ html, body {margin: 0; height: 100%;}
 .right-pane img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
+
 
 .container{
     width: 75%;
@@ -46,12 +48,17 @@ html, body {margin: 0; height: 100%;}
     overflow: hidden;
 }
 
-#imgName{
-    margin-top: 2vw;
-}
 .MediaPane{
-    height: 100%;
+    height: 70.5vh;
     justify-content: center;
     margin: 1vw;
     display: flex;
+}
+
+.right-pane{
+    height: 100%;
+}
+
+#imgName{
+    margin-top: 2vw;
 }

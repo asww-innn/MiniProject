@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
             function createCard(content, type) {
                 const card = document.createElement('div');
                 card.classList.add('card');
+                const filename = content.split('/').pop(); 
                 
                 if (type === 'image') {
                     const img = document.createElement('img');
@@ -31,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 card.addEventListener('click', function() {
                     if (type === 'image') {
-                        rightPane.innerHTML = `<img src="${content}" alt="Selected Image">`;
+                        rightPane.innerHTML = `<div id="filename">${filename}</div><img src="${content}">`;
                     } else if (type === 'video') {
-                        rightPane.innerHTML = `<video src="${content}" controls autoplay></video>`;
+                        rightPane.innerHTML = `<div id="filename">${filename}</div><video src="${content}" controls autoplay></video>`;
                     } else if (type === 'youtube') {
                         rightPane.innerHTML = `<iframe src="${content}" width="100%" height="700px" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
                     }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const headerHTML = `
-      <header>
+      <body>
         <div class="navbar">
           <nav>
             <ul>
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </ul>
           </nav>
         </div>
-      </header>
+      </body>
     `;
     
     

@@ -26,16 +26,42 @@ header ul{
 }
 
 header{
-    background-color:#e1d9f199;
+    height: 13vh;
+    background-color:#d0f7f58f;
+    color: #000000ce;
+    border-bottom: 1px solid black;
 }
 header h1{
-    font-family: 'sabindo';
+    font-family: 'sparkystones';
+    font-weight: normal;
+    font-size: 3vh;
     text-align: center;
 }
 header p{
     text-align: center;
+    font-size: 2vh;
     font-family: 'sparkystones';
 }
 
-
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: rgb(255, 196, 144);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw 0 1vw;
+    height: 3.5vh;
+}
+footer {
+    text-align: center;
+    font-size: 1.7vh;
+    font-family: 'Delius';
+    background: #000000df;
+    margin-top: 2vh;
+}
 html, body {margin: 0; height: 100%;}

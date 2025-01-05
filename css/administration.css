@@ -3,19 +3,20 @@ body {
     text-align: center;
     font-family: 'Delius';
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 .listing ul {
     list-style-type: none;
-    padding: 0;
+    padding: 1vw;
 }
 
 .listing li {
     background-color: aliceblue;
-    margin: 5px 0;
+    margin: 2vh 0;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.136);
+    box-shadow: 1px 1px 4px;
+    border-radius: 1vw;
 }
 
 .listing a {
