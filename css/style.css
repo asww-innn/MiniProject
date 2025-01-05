@@ -36,6 +36,7 @@ header {
     background-size: cover;
     color: #000000;
     text-align: center;
+    border-bottom: 0;
 }
 
 
@@ -198,12 +199,11 @@ h2{
     -webkit-text-stroke-width: 1px;
     background-color: rgba(205, 199, 199, 0.627);
     font-family: 'sabindo';
-    font-size: 8vh;
+    font-size: 8.11vh;
 }
 
 .desc{
     font-family: 'sparkystones';
-    background-color: rgba(146, 141, 141, 0.8);
     font-size: 3.4vh;
 }
 
