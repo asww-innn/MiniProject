@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const rightPane = document.getElementById('rightPane');
 
     
-    fetch('./assets/other/media.json')
+    fetch('../assets/other/media.json')
         .then(response => response.json())
         .then(data => {
             function createCard(content, type) {
